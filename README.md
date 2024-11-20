@@ -25,7 +25,7 @@ wget https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x2.pt
 ## Example
 ### LandScape
 ```bash
-time python websockets_api.py --mode 1 --prompt "
+time python main.py --mode 1 --prompt "
 cute angel" --save_path "./test.png"
 ```
 ```
@@ -36,7 +36,7 @@ sys     0m0.036s
 ```
 ### Portait
 ```bash
-time python websockets_api.py --mode 2 --prompt "
+time python main.py --mode 2 --prompt "
 cute angel" --save_path "./test.png"
 ```
 ```
