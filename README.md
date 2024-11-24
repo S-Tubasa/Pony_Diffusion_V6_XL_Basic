@@ -25,8 +25,7 @@ wget https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x2.pt
 ## Example
 ### LandScape
 ```bash
-time python main.py --mode 1 --prompt "
-cute angel" --save_path "./test.png"
+time python main.py --mode 1 --prompt "cute angel" --save_path "./test.png"
 ```
 ```
 NVIDIA L4
@@ -36,8 +35,7 @@ sys     0m0.036s
 ```
 ### Portait
 ```bash
-time python main.py --mode 2 --prompt "
-cute angel" --save_path "./test.png"
+time python main.py --mode 2 --prompt "cute angel" --save_path "./test.png"
 ```
 ```
 NVIDIA L4
