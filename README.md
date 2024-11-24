@@ -16,7 +16,6 @@ pip install websocket-client
 
 cd models/checkpoints
 wget https://civitai.com/api/download/models/290640?token=xxxxxxxxx --content-disposition
---relative-path
 
 cd models/upscale_models
 wget https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x2.pth
